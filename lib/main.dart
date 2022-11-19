@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Tugas Pertama Flutter',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Tugas Pertama Flutter'),
     );
   }
 }
@@ -95,12 +95,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'Hello World',
-            ),
             Text(
-              '$_counter',
+              'Anjani Dwilestari',
               style: Theme.of(context).textTheme.headline4,
+            ),
+            const Text(
+              '2041720180',
             ),
           ],
         ),
